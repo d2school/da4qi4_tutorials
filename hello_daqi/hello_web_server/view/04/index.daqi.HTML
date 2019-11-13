@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <title>首页</title>
+    <meta content="text/html; charset=UTF-8">
+</head>
+<body>
+    <h1>欢迎来到我的主页</h1>
+    <a href="/hello">进入问候页面</a>
+    <h2>欢迎，{=_URL_PARAMETER_("name")=}  {=_URL_PARAMETER_("称呼")=}  ! </h2>
+    <p>您正在使用的浏览器： {=_HEADER_("User-Agent")=}</p>
+    <p>您正在通过该网址访问本站：{=_HEADER_("Host")=}</p>
+</body>
+</html>
